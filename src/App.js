@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Slider from './BannerSection/Slider';
-import Person from './Persons/Person/Person';
-import Header from './HeaderSection/Header';
+import Person from './Components/Persons/Person/Person';
+import Header from './Components/HeaderSection/Header';
 import classes from './App.css';
 
 class App extends Component {
