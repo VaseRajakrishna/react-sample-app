@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Slider from './BannerSection/Slider';
-import Person from './Components/Persons/Person/Person';
-import Header from './Components/HeaderSection/Header';
+import Slider from '../Components/BannerSection/Slider';
+import Person from '../Components/Persons/Person/Person';
+import Header from '../Components/HeaderSection/Header';
 import classes from './App.css';
 
 class App extends Component {
@@ -124,7 +124,7 @@ const studentData=this.state.studentData.map((data,index)=>{
       <div className={classes.App}>
       <Header></Header>
       <hr />
-      {/* <Slider></Slider> */}
+      <Slider></Slider>
         <div className="container-fluid">
         <button className="btn btn-success" onClick={this.toggleTrigger} style={btnStyle}>Toggle Button</button>
         {addButton}
