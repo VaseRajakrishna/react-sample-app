@@ -6,19 +6,19 @@ const headersection =() => {
         <nav className="navbar navbar-expand-sm bg-primary navbar-light">
         <ul className="navbar-nav">
           <li className="nav-item">
-            <a className="nav-link" href="#">Home</a>
+            <a className="nav-link" href="https://google.com">Home</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">About</a>
+            <a className="nav-link" href="https://google.com">About</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">Contact</a>
+            <a className="nav-link" href="https://google.com">Contact</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">Services</a>
+            <a className="nav-link" href="https://google.com">Services</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">Blog</a>
+            <a className="nav-link" href="https://google.com">Blog</a>
           </li>
         </ul>
       </nav>
